@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* header section*/
+
+header{
+    position: fixed;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    text-align: center;
+    z-index: 1;     /*to avoid ovelap, we will give positive value*/
+}
+
+header img{
+    height: 75px;
+
+}
+
+
+
+/* banner section*/
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner h2{
+    position: absolute;
+    top: 30%;
+    background-color: rgba(241, 190, 83, 0.6);
+    border-radius: 5px;
+    color: white;
+    left: 20px;
+}
+
+.banner h2 span{
+    font-weight: bold;
+    font-size: 1.3em;   /*from original font size it will become 1.3 times bigger size in em , so we are using inside 
+    span tag to make that partcular alone bigger font size*/
+}
+
+.banner{
+    position: relative;
+    text-align: center;
+}
+
+/* inside banner section we have img tag and h2 tag, to place h2 tag upon img tag we have 
+to give position: absolute  but while giving absolute tag the main banner section we have to
+change the position to relative then only it works, incase while giving if any this disapperas means 
+like logo or anything disappeared means we have to give z index as 1 or any positive value*/
+
+
+/*Navigation links*/
+
+nav{
+    background-color: lightgray;
+    position: sticky;
+    top: 100px;
+    z-index: 1;
+}
+nav li{
+    display: inline-block;    /* makes nav bar horizontally*/
+    width: 25%;     /* there will be gap between each nav 25% gap*/
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+nav li:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav ul{
+    white-space: nowrap;   /* if one content moves down while giving width as 25% means we can give whitespace 
+    as nowrap , then all nav bar content will takes equal width as 25%*/
+    max-width: 1000px;
+    margin: 0 auto;    /*nav bar content will comes in center for 1000px screen size*/
+
+}
+
+
+/*Main content*/
+
+article{
+    max-width: 80%;
+    margin: 0 auto;   /*if we give max width means we have to give margin like this to make content centre*/
+
+}
+
+article h2, h3{
+    color: navy;
+}
+
+article p{
+    line-height: 1.4em;
+    letter-spacing: 1px;
+}
+
+article p::first-letter{
+    font-size: 1.5em;    /*from actual font size 1.5 times it multiples*/
+}
+
+
+article p::selection{
+    background-color: yellow;
+}
+
+article ul li{
+    display: inline-block;  /* images will come side by side without going down*/
+}
+
+article ul li img{
+    max-height: 70%;
+    transition: transform .1s;
+}
+
+article ul li img:hover{
+    /*position: relative;    when we hover that image, it gets slightly animated
+    top: -4px;*/
+    transform: scale(1.05);  /* zoom out animation*/
+}
+
+
+/*state section*/
+section.states{
+    background-color: navy;
+    
+}
+
+.states-list{
+    max-width: 900px;
+    margin: 0 auto;
+    column-count: 4;
+    column-gap: 50px;
+    padding: 20px;
+}
+
+section.states ul{
+    list-style: none;
+    width: 75%;
+}
+
+section.states ul li{
+    line-height: 40px;
+}
+
+section.states ul li a{
+    text-decoration: none;
+    color: azure;
+}
+
+section.states ul li a:hover{     /* single colon : we areusing in pseudo codes*/
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/*footer section*/
+footer{
+    background-color: navy;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer p{
+    text-align: center;
+    color: azure;
+}
+
+/*horizontal line style*/
+hr{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/*breakpoints
+
+xs / small === 576px  ===mobile
+medium   ===768px  ==== tablet
+large === 992px 
+xl=== 1200px   === laptop
+xxl === 1400px === tv
+to cover phone and tablet we are taking 720px*/
+
+
+
+
+

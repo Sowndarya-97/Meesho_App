@@ -1,0 +1,88 @@
+.bg-img img{
+    background-color: blue;
+}
+@media screen and (max-width:428px) {
+    .bg-img img{
+        height: 400px;
+        width: 700px;
+    }
+    
+}
+.shop h1{
+    margin-left: 850px;
+    margin-top: -300px;
+    color: black;
+    line-height: 1.5;
+    
+}
+
+@media  screen and (max-width:768px) {
+    .shop h1{
+        margin-left: 550px;
+        margin-top: -300px;
+        color: black;
+        line-height: 1.5;
+        
+    }
+    
+}
+@media screen and (max-width:428px) {
+    .shop h1{
+        margin-left: 450px;
+        font-size: 20px;
+    }
+    
+}
+
+.shop-btn{
+    margin-left: 850px;
+    
+}
+button{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+
+@media screen and (max-width:768px) {
+    .shop-btn{
+        margin-left: 550px;
+
+    }
+    
+}
+
+@media screen and (max-width:428px) {
+    .shop-btn{
+        margin-left: 450px;  
+    }
+    
+    
+}
+
+.dress img{
+    margin-top: 200px;
+    padding-left: 30px;
+}
+
+@media screen and (max-width:770px){
+    .dress img{
+        padding-left: 15px;
+        margin-top: 10px;
+        height: 100px;
+        width: 80px;
+        margin-top: 60px;
+    }
+    
+}
+@media screen and (max-width:430px) {
+    .dress img{
+        padding-left: 20px;
+        height: 80px;
+        width: 30px;
+        margin-top: 80px;
+    }
+    
+}

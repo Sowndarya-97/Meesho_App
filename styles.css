@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    margin-left: 70px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input{
+    width: 500px;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -420px;
+    
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: end;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.nav-bar ul li{
+    list-style: none;
+    margin-top: -60px;
+    margin-right: 55px;
+    background-color: white;
+}
+
+.nav-bar1 ul{
+    display: flex;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav-bar1 ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+.nav-bar1 ul li:hover{
+    cursor: pointer;
+    color: purple;
+}
+.bg-img{
+    background-color: blue;
+}
+.shop h1{
+    margin-left: 850px;
+    margin-top: -300px;
+    color: white;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    margin-left: 850px;
+    color: purple;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.border ul{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid purple;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 50px;
+    box-shadow: rgba(133, 13, 113, 0.35) 0px 5px 15px;
+}
+.border ul li{
+    list-style: none;
+    padding: 30px;
+}
+.dress{
+    display: flex;
+    justify-content: center;
+}
+.dress img{
+    padding-left: 20px;
+}
+.dress1 ul{
+    display: flex;
+    justify-content: start;
+}
+.dress1 ul li{
+    list-style: none;
+    padding-left: 10px;
+    margin-left: 90px;
+}
+.dress1 ul li:hover{
+    cursor: pointer;
+}
+.shops a{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    margin-right: 900px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.imgpic1{
+    margin-left: 800px;
+    margin-top: -500px;
+}
+.imgpic2{
+    margin-left: 1000px;
+    margin-top: -210px;
+}
+.imgpic3{
+    margin-left: 800px;
+    margin-top: 80px;
+}
+.imgpic4{
+    margin-left: 1000px;
+    margin-top: -210px;
+}
+
+
